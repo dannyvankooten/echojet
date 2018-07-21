@@ -1,7 +1,7 @@
 echojet
 =========
 
-Echojet wires the [cloudykit/jet](https://github.com/CloudyKit/jet) templating package with [Echo](https://echo.labstack.com/)'s `c.HTML(..)` helper function.
+Echojet wires the [cloudykit/jet](https://github.com/CloudyKit/jet) templating package with [Echo](https://echo.labstack.com/)'s `c.HTML(..)` rendering function.
 
 Additionally, it helps you load your templates from a bindata generated source.
 

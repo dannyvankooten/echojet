@@ -49,9 +49,9 @@ func New(o Options) *Renderer {
 		r.Templates = jet.NewHTMLSetLoader(o.Loader)
 	} else {
 		r.Templates = jet.NewHTMLSet(o.Directory)
+		r.Templates.SetDevelopmentMode(o.DevelopmentMode)
 	}
 
-	r.Templates.SetDevelopmentMode(o.DevelopmentMode)
 	return r
 }
 
